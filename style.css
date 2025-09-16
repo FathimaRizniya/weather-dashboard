@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  /* background: linear-gradient(to right, #01315c, #667eeb); */
+  background: rgb(1, 1, 112);
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  margin-top: 50px;
+}
+
+input, button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(187, 191, 255);
+}
+
+button {
+  background: #000000;
+  color: #0501ff;
+  cursor: pointer;
+}
+
+.weather-card {
+  margin-top: 20px;
+  padding: 25px;
+  background: rgba(187, 202, 243, 0.9);
+  
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  animation: slideUp 0.6s ease-in-out;
+}
